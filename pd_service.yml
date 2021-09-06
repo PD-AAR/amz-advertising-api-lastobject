@@ -1,0 +1,10 @@
+GCP_PROJECT: precis-aarhus-internal
+GCP_REGION: europe-west1
+SERVICE_NAME: amz-advertising-api-lastobject
+SERVICE_ACCOUNT_EMAIL: amz-advertising-api-lastobject@precis-aarhus-internal.iam.gserviceaccount.com
+GAE_SERVICE_PRECIS_CENTRAL: https://precis-central.appspot.com
+GAE_SERVICE_PRECIS_CENTRAL_CLIENT_ID: 119500220010-0r41f87laae7eav7vcrp9a71dmnobdlg.apps.googleusercontent.com
+
+ROLLBAR_TOKEN: ""
+
+# Project Specific values below

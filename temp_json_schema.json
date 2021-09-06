@@ -1,0 +1,212 @@
+[
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "attributedunitsordered14d",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "campaignname",
+    "type": "STRING"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "attributedsales14d",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "attributedordersnewtobrand14d",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "clicks",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "attributedconversions14dsamesku",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "attributedconversions30dsamesku",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "targetingtext",
+    "type": "STRING"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "attributedunitsordered1d",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "attributedsales7dsamesku",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "attributedsales30dsamesku",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "attributedunitsorderednewtobrand14d",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "attributedsales14dsamesku",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "targetingexpression",
+    "type": "STRING"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "attributedunitsordered7d",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "attributedconversions7dsamesku",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "targetid",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "targetingtype",
+    "type": "STRING"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "currency",
+    "type": "STRING"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "adgroupname",
+    "type": "STRING"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "attributedsalesnewtobrand14d",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "attributedsales30d",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "attributedsales1dsamesku",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "attributedconversions7d",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "attributedconversions30d",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "adgroupid",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "attributedconversions1d",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "attributedconversions1dsamesku",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "campaignid",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "cost",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "impressions",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "attributedunitsordered30d",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "attributedsales1d",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "attributedconversions14d",
+    "type": "FLOAT"
+  },
+  {
+    "description": null,
+    "mode": "NULLABLE",
+    "name": "attributedsales7d",
+    "type": "FLOAT"
+  }
+]

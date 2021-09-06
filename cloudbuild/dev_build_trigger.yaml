@@ -1,0 +1,16 @@
+# Create GitHub Build Trigger
+# https://cloud.google.com/sdk/gcloud/reference/beta/builds/triggers/create/github
+# https://cloud.google.com/config-connector/docs/reference/resource-docs/cloudbuild/cloudbuildtrigger
+# branch-pattern flag supports regex, can also use tag-pattern, or pull-request-pattern
+
+description: amz-advertising-api-lastobject Dev Build Trigger
+filename: "cloudbuild/cloudbuild.yaml"
+github:
+  name: amz-advertising-api-lastobject
+  owner: Precis-Digital
+  pullRequest:
+    branch: ^master$
+    commentControl: COMMENTS_DISABLED
+ignoredFiles:
+- "**/*.md"
+name: amz-advertising-api-lastobject-dev-pull-request-to-master

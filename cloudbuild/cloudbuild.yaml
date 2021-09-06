@@ -1,0 +1,75 @@
+# Cloud Build Config Structure Overview
+# https://cloud.google.com/cloud-build/docs/build-config
+
+# Useful post on bash/script syntax in cloudbuild
+# https://medium.com/@davidstanke/mastering-google-cloud-build-config-syntax-8c3024607daf
+
+steps:
+
+# Install Python
+- name: python:3.8
+  id: INSTALL-PYTHON
+  entrypoint: python3
+  args:
+    [
+      "-m",
+      "pip",
+      "install",
+      "-r",
+      "requirements-dev.txt",
+      "--user"  # So dependencies get loaded in right place, and persist across Steps
+    ]
+
+# Linting
+- name: python:3.8
+  id: BLACK-CHECK
+  entrypoint: python3
+  args: ["-m", "black", ".", "--check"]
+
+- name: python:3.8
+  id: ISORT-CHECK
+  entrypoint: python3
+  args: ["-m", "isort", ".", "--check-only"]
+
+# Run tests
+- name: python:3.8
+  entrypoint: 'bash'
+  id: RUN-TESTS
+  # NOTE: builder service account must have ServiceAccountTokenCreator role on Project or service account level
+  # Omit /builder/* so Coverage doesn't evaluate all installed packages
+  args:
+    - -c
+    - |
+      python -m coverage run --omit="/builder/*,tests/*" -m unittest discover -v --failfast -s "./tests"
+
+# Run Coverage tests
+- name: python:3.8
+  entrypoint: python3
+  id: RUN-COVERAGE-REPORT
+  args: ["-m", "coverage", "report", "--fail-under=50"]
+
+# Deploy via gcloud
+# note local env variables are via $${}, while default env vars and Substitutions are via ${}
+# https://cloud.google.com/cloud-build/docs/configuring-builds/substitute-variable-values
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  entrypoint: 'bash'
+  id: DEPLOY
+  args:
+    - -c
+    - |
+      set -a
+      # Set env vars and export (with set -a setting)
+      source scripts/set_env.sh &&
+      set +a
+
+      LOWER_BRANCH=$(echo ${BRANCH_NAME} | awk '{print tolower($0)}') &&
+      VERSION=$${LOWER_BRANCH}-${SHORT_SHA} &&
+
+      if [ $${LOWER_BRANCH} == 'master' ]; then
+        echo "Deploying $${SERVICE_NAME} as PROD, sending traffic, Version $${VERSION}"
+        bash ./scripts/deploy_prod.sh --version=$${VERSION}
+      else
+        echo "Deploying $${SERVICE_NAME} as DEV, no traffic, Version $${VERSION}"
+        bash ./scripts/deploy_dev.sh --version=$${VERSION}
+      fi
+timeout: 1800s

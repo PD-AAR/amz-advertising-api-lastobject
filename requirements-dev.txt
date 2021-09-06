@@ -1,0 +1,9 @@
+-r requirements.txt
+
+pre-commit==2.10.1
+black==20.8b1
+isort==5.7.0
+coverage-badge==1.0.1
+
+# https://github.com/microsoft/vscode-python/issues/12949
+setuptools

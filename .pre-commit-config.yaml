@@ -1,0 +1,16 @@
+fail_fast: true
+repos:
+  - repo: local
+    hooks:
+      - id: isort
+        name: isort-local
+        entry: python -m isort .
+        language: system
+        types: [python]
+        pass_filenames: true
+      - id: black
+        name: black-local
+        entry: python -m black --config pyproject.toml
+        language: system
+        types: [python]
+        pass_filenames: true

@@ -1,0 +1,9 @@
+default_context:
+  __template_version: beta
+  framework: flask_restful
+  gcp_resource_manager: gcloud
+  include_pd_core_library: 'no'
+  project_name: amz-advertising-api-lastobject
+  project_slug: amz-advertising-api-lastobject
+  trigger_type: http
+  worker_type: cloud_function

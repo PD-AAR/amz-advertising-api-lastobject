@@ -1,0 +1,2974 @@
+{
+  "hsa": {
+    "campaigns": [
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "placement",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsalesnewtobrandpercentage14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions14dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignstatus",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignname",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributeddetailpageviewsclicks14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "dpv14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignbudget",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "clicks",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignbudgettype",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "unitssold14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "cost",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignid",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedorderratenewtobrand14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales14dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsorderednewtobrand14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "impressions",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsorderednewtobrandpercentage14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedordersnewtobrand14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsalesnewtobrand14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": "%E4Y-%m-%d",
+        "mode": "NULLABLE",
+        "name": "date",
+        "type": "DATE"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedordersnewtobrandpercentage14d",
+        "type": "FLOAT"
+      }
+    ],
+    "adGroups": [
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsorderednewtobrandpercentage14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsalesnewtobrandpercentage14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions14dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignstatus",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "clicks",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignbudgettype",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "unitssold14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignname",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributeddetailpageviewsclicks14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "dpv14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "adgroupid",
+        "type": "FLOAT"
+      },
+      {
+        "description": "%E4Y-%m-%d",
+        "mode": "NULLABLE",
+        "name": "date",
+        "type": "DATE"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedordersnewtobrandpercentage14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignbudget",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedordersnewtobrand14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsalesnewtobrand14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "adgroupname",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales14dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsorderednewtobrand14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "impressions",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedorderratenewtobrand14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "cost",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignid",
+        "type": "FLOAT"
+      }
+    ],
+    "keywords": [
+      {
+        "description": "%E4Y-%m-%d",
+        "mode": "NULLABLE",
+        "name": "date",
+        "type": "DATE"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignstatus",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignbudget",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignid",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "cost",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "keywordbid",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignname",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "keywordtext",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "adgroupid",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "impressions",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "keywordid",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "query",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "matchtype",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "clicks",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignbudgettype",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "keywordstatus",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "adgroupname",
+        "type": "STRING"
+      }
+    ]
+  },
+  "sp": {
+    "campaigns": [
+      {
+        "description": "%E4Y-%m-%d",
+        "mode": "NULLABLE",
+        "name": "date",
+        "type": "DATE"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered30dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignname",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "placement",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions14dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered14dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignbudget",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions30dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered30d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales1d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "impressions",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales7dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales30dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales14dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignstatus",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered7d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered1d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered7dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales30d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions30d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions7d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales1dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions1dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignid",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "cost",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales7d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions1d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "bidplus",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions7dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "clicks",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered1dsamesku",
+        "type": "FLOAT"
+      }
+    ],
+    "adGroups": [
+      {
+        "description": "%E4Y-%m-%d",
+        "mode": "NULLABLE",
+        "name": "date",
+        "type": "DATE"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered30dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignname",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions14dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered14dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions30dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered30d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales1d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "impressions",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales7dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales30dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales14dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered7d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered1d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered7dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "adgroupname",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales30d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions30d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions7d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales1dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "adgroupid",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions1d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions1dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignid",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "cost",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales7d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions7dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "clicks",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered1dsamesku",
+        "type": "FLOAT"
+      }
+    ],
+    "keywords": [
+      {
+        "description": "%E4Y-%m-%d",
+        "mode": "NULLABLE",
+        "name": "date",
+        "type": "DATE"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered30dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignname",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions14dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered14dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered1d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales14dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered7d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales30dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales7dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "keywordtext",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered7dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "adgroupname",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions30d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions7d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales30d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales1dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "matchtype",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "adgroupid",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions1d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions1dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignid",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "cost",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "impressions",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales1d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered30d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales7d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "query",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions30dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "keywordid",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions7dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "clicks",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered1dsamesku",
+        "type": "FLOAT"
+      }
+    ],
+    "productAds": [
+      {
+        "description": "%E4Y-%m-%d",
+        "mode": "NULLABLE",
+        "name": "date",
+        "type": "DATE"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered30dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignname",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions14dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered14dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "adid",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions30dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered1d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales7dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales30dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales14dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered7d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered7dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "currency",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "adgroupname",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales30d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions30d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions7d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales1dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "adgroupid",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions1d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "cost",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "sku",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "impressions",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered30d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales1d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignid",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions1dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "asin",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales7d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions7dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "clicks",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered1dsamesku",
+        "type": "FLOAT"
+      }
+    ],
+    "asins": [
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered14dothersku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered1d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered1dothersku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "otherasin",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "sku",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "asin",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales14dothersku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "adgroupname",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "currency",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "matchtype",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "adgroupid",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignname",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered7dothersku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales1dothersku",
+        "type": "FLOAT"
+      },
+      {
+        "description": "%E4Y-%m-%d",
+        "mode": "NULLABLE",
+        "name": "date",
+        "type": "DATE"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales30dothersku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered30d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignid",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "keywordtext",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered30dothersku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered7d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales7dothersku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "keywordid",
+        "type": "FLOAT"
+      }
+    ],
+    "targets": [
+      {
+        "description": "%E4Y-%m-%d",
+        "mode": "NULLABLE",
+        "name": "date",
+        "type": "DATE"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered30dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignname",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions14dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered14dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions30dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered1d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "targetingtext",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales7dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales30dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales14dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "targetingexpression",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered7d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "targetingtype",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered7dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "targetid",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "adgroupname",
+        "type": "STRING"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales30d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions30d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions7d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales1dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "adgroupid",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions1d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "impressions",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered30d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales1d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions1dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "campaignid",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "cost",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions14d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedsales7d",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedconversions7dsamesku",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "clicks",
+        "type": "FLOAT"
+      },
+      {
+        "description": null,
+        "mode": "NULLABLE",
+        "name": "attributedunitsordered1dsamesku",
+        "type": "FLOAT"
+      }
+    ]
+  },
+  "sd": {
+    "campaigns": {
+      "T00020": [],
+      "T00030": [
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": "%E4Y-%m-%d",
+          "mode": "NULLABLE",
+          "name": "date",
+          "type": "DATE"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "campaignname",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedordersnewtobrand14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "clicks",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions14dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales1d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered30d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "impressions",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales7dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales30dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions30dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsorderednewtobrand14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales14dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered7d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsalesnewtobrand14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales30d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales1dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions7d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions30d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions7dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered1d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "currency",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions1d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions1dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "campaignid",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "cost",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales7d",
+          "type": "FLOAT"
+        }
+      ],
+      "remarketing": [
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": "%E4Y-%m-%d",
+          "mode": "NULLABLE",
+          "name": "date",
+          "type": "DATE"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "campaignname",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions14dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered30d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales1d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "impressions",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales7dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales30dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions30dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales14dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered7d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales30d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales1dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions7d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions30d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "clicks",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions7dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered1d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "currency",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions1d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions1dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "campaignid",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "cost",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales7d",
+          "type": "FLOAT"
+        }
+      ]
+    },
+    "adGroups": {
+      "T00020": [],
+      "T00030": [
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": "%E4Y-%m-%d",
+          "mode": "NULLABLE",
+          "name": "date",
+          "type": "DATE"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "campaignname",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedordersnewtobrand14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "clicks",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions14dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions30dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales1d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered30d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "impressions",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales7dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales30dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsorderednewtobrand14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales14dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered7d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions7dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "currency",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "adgroupname",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsalesnewtobrand14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales30d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales1dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions7d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions30d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered1d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "adgroupid",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions1d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions1dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "campaignid",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "cost",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales7d",
+          "type": "FLOAT"
+        }
+      ],
+      "remarketing": [
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": "%E4Y-%m-%d",
+          "mode": "NULLABLE",
+          "name": "date",
+          "type": "DATE"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "campaignname",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "clicks",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions14dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered30d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales1d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "impressions",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales7dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales30dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions30dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales14dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered7d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions7dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "currency",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "adgroupname",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales30d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales1dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions7d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions30d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered1d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "adgroupid",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions1d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions1dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "campaignid",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "cost",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales7d",
+          "type": "FLOAT"
+        }
+      ]
+    },
+    "productAds": {
+      "T00020": [],
+      "T00030": [
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": "%E4Y-%m-%d",
+          "mode": "NULLABLE",
+          "name": "date",
+          "type": "DATE"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "campaignname",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedordersnewtobrand14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "clicks",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions14dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "adid",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions30dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered1d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales1d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered30d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "impressions",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales7dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales30dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsorderednewtobrand14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales14dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered7d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions7dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "currency",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "adgroupname",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsalesnewtobrand14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales30d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales1dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions7d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions30d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "adgroupid",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions1d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions1dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "campaignid",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "cost",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "sku",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "asin",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales7d",
+          "type": "FLOAT"
+        }
+      ],
+      "remarketing": [
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": "%E4Y-%m-%d",
+          "mode": "NULLABLE",
+          "name": "date",
+          "type": "DATE"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "campaignname",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "clicks",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions14dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "adid",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions30dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered30d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales1d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "impressions",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales7dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales30dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales14dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered7d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions7dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "currency",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "adgroupname",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales30d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales1dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions7d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions30d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered1d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "adgroupid",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions1d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "cost",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "sku",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "campaignid",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions1dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "asin",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales7d",
+          "type": "FLOAT"
+        }
+      ]
+    },
+    "targets": {
+      "T00020": [],
+      "T00030": [
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": "%E4Y-%m-%d",
+          "mode": "NULLABLE",
+          "name": "date",
+          "type": "DATE"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "campaignname",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedordersnewtobrand14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "clicks",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions14dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions30dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "targetingtext",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered1d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales7dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales30dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsorderednewtobrand14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales14dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "targetingexpression",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered7d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions7dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "targetid",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "targetingtype",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "currency",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "adgroupname",
+          "type": "STRING"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsalesnewtobrand14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales30d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales1dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions7d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions30d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "adgroupid",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions1d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions1dsamesku",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "campaignid",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "cost",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "impressions",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedunitsordered30d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales1d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedconversions14d",
+          "type": "FLOAT"
+        },
+        {
+          "description": null,
+          "mode": "NULLABLE",
+          "name": "attributedsales7d",
+          "type": "FLOAT"
+        }
+      ]
+    }
+  }
+}
