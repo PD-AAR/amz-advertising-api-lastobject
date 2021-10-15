@@ -142,6 +142,7 @@ def main(request: Request):
                                         "creativeType": element if ad_type == "hsa" else None,
                                     },
                                 }
+
                                 dispatch_standard_task(
                                     tasks_parent,
                                     tasks_v2.HttpMethod.GET,
@@ -160,9 +161,10 @@ def main(request: Request):
                                 )
 
                                 """
-                                report_dict = amz_api_service.get_report(ad_type,record_type,date,account['country_code'],account['account_id'])
+                                report_dict = amz_api_service.get_report(report_id,ad_type,record_type,report_date,account['country_code'],account['account_id'],tactic,creativeType)
+
                                 report_to_upload_with_dates = []
-                                reformatted_date = date[0:4]+"-"+date[4:6]+"-"+date[6:8]
+                                reformatted_date = report_date[0:4]+"-"+report_date[4:6]+"-"+report_date[6:8]
                                 for row in report_dict['report']:
                                     row['date'] = reformatted_date
                                     report_to_upload_with_dates.append(row)
@@ -171,10 +173,10 @@ def main(request: Request):
 
                                 table_name = f"amz_ads_{ad_type}_{record_type}_{account['account_id']}_{account['country_code']}"
 
-                                logging.info(f"Uploading report with the name: '{table_name}' for date: '{date}' to '{target_project}.{target_dataset}'")
-                                bq_load_json_list(target_project, target_dataset, table_name, reformatted_report,date,report_dict['bq_schema'])
+                                logging.info(f"Uploading report with the name: '{table_name}' for date: '{report_date}' to '{target_project}.{target_dataset}'")
+                                bq_load_json_list(target_project, target_dataset, table_name, reformatted_report,report_date,report_dict['bq_schema'])
                                 """
-
+                                
                                 report_counter += 1
 
             msg = f"Dispatched {report_counter} report tasks in total to '{target_project}.{target_dataset}'"

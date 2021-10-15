@@ -11,20 +11,16 @@ from gzip import decompress
 import io
 import csv
 
-if os.environ.get("LOCAL_DEVELOPMENT", "") == "true":
-    with open("./secrets/amz-ads-credentials-andreas.json") as json_file_andreas_amz_credentials:
-        andreas_amz_credentials = json.load(json_file_andreas_amz_credentials)
-else:
-    # Load this from Secrets Manager instead when deployed
-    from google.cloud import secretmanager
+# Load this from Secrets Manager instead when deployed
+from google.cloud import secretmanager
+from pd_utils.service_to_service.service_account import ServiceAccountCredentials
 
-    secretmanager_client = secretmanager.SecretManagerServiceClient()
-    andreas_amz_credentials = json.loads(
-        secretmanager_client.access_secret_version(
-            name="projects/174210082994/secrets/amz-ads-credentials-andreas/versions/1"
-        ).payload.data.decode("UTF-8")
-    )
-
+secretmanager_client = secretmanager.SecretManagerServiceClient(credentials=ServiceAccountCredentials().get_credentials())
+andreas_amz_credentials = json.loads(
+secretmanager_client.access_secret_version(
+        name="projects/269322900495/secrets/lo-az-ads/versions/1"
+    ).payload.data.decode("UTF-8")
+)
 
 class AmazonAdvertisingApiService:
     def __init__(self, region, credentials=andreas_amz_credentials):
@@ -108,6 +104,7 @@ class AmazonAdvertisingApiService:
         access_token = res.json()["access_token"]
 
         self._headers["Authorization"] = f"Bearer {access_token}"
+        return f"Bearer {access_token}"
 
     def _download_report(self, link, headers):
         report_res = self._make_request(url=link, method="GET", headers=headers)
@@ -221,7 +218,7 @@ class AmazonAdvertisingApiService:
 
 
 if __name__ == "__main__":
-    amz_api_service = AmazonAdvertisingApiService(region="FE")
+    amz_api_service = AmazonAdvertisingApiService(region="NA")
     # report_id = amz_api_service.create_new_report(
     #    "sd", "targets", "20210626", "US", "A2F1M85EMKLCHV", "remarketing", None
     # )
@@ -229,5 +226,30 @@ if __name__ == "__main__":
     #    report_id, "sd", "targets", "20210626", "US", "A2F1M85EMKLCHV", "remarketing", None
     # )
     # print(list(report["report"][0].keys()))
-    print(amz_api_service.list_profiles())
+    #print(amz_api_service.list_profiles())
     # print(amz_api_service.create_new_report('sp','campaigns','20210407','US','A2F1M85EMKLCHV'))
+
+    '''
+    ## Jhonys Code
+    access_token = amz_api_service._headers['Authorization']
+    from requests.structures import CaseInsensitiveDict
+    import pandas as pd
+    def get_profiles(endpoint, access_token):
+        url = endpoint + "/profiles"
+
+        headers = CaseInsensitiveDict()
+        headers['Content-Type'] = "application/json"
+        headers['Authorization'] = access_token
+        headers['Amazon-Advertising-API-ClientId'] = "amzn1.application-oa2-client.6581aec8607e470daa7f4a465f5c6bba"
+        #headers['Amazon-Advertising-API-ClientId'] = amz_api_service._headers['Amazon-Advertising-API-ClientId']
+
+        resp = requests.get(url, headers=headers)
+        jsonfile=json.loads(resp.text)
+        df = pd.DataFrame.from_dict(jsonfile, orient = 'columns')
+        df['ingestion_time'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        return df
+    
+    fe_endpoint = "https://advertising-api.amazon.com/v2"
+    print(get_profiles(fe_endpoint,access_token))
+    '''    
+
